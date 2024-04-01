@@ -14,7 +14,7 @@ To use these scripts, upload them to an Arduino microcontroller using the Arduin
 
 ## Schematic Diagram and Connection Table
 
-Below is the schematic diagram (Figure S3A) and the corresponding connection table (Figure S3B) for the Spinning Desicurer setup:
+Below is the schematic diagram (Figure S2A) and the corresponding connection table (Figure S2B) for the Spinning Desicurer setup:
 
 ![Schematic Diagram and Connection Table](/images/figure_S3.png "Schematic Diagram and Connection Table")
 
@@ -50,7 +50,7 @@ The `button_push_mode` script combines the functionalities of the LED controller
 
 #### Hardware Setup
 
-- Follow the wiring diagram provided in Figure S3 to connect the L293D motor driver, ensuring the correct setup for directional and speed control of the motor.
+- Follow the wiring diagram provided in Figure S2 to connect the L293D motor driver, ensuring the correct setup for directional and speed control of the motor.
 - Connect the motor's control inputs to pins 2 and 3 on the Arduino, as these will determine the motor's direction.
 - Connect the LED to pin 5 on the Arduino to control its brightness through PWM.
 - Attach push buttons to pins 7 and 8 on the Arduino. The button connected to pin 7 will control the motor, and the button connected to pin 8 will control the LED.
