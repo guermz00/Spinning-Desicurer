@@ -27,7 +27,7 @@ The `led_controller_test` script turns on an LED at full brightness and then gra
 #### Hardware Setup
 
 - Ensure that your LED is connected to an LED driver board. We employed a LD24AJTA adjustable LED Driver Board sourced from Amazon. Be sure to obtain a power supply suited for your LED of choice specifications. 
-- We employed a HANZON High Power Led Chip 10W Purple Ultraviolet (UV 395nm / 900mA / DC 9V - 11V / 10 Watt) with a 12V 10A DC Universal Regulated Switching Power Supply (SMPS).
+- We employed a CHANZON High Power Led Chip 10W Purple Ultraviolet (UV 395nm / 900mA / DC 9V - 11V / 10 Watt) with a 12V 10A DC Universal Regulated Switching Power Supply (SMPS). Additionally, we employed a 60-degree lens with a heatsink and a fan as the LED holder. These three items were sourced from Amazon. 
 - Connect your LED driver PWM pin to pin 5 on the Arduino. Connect driver GND to Arduino GND.
 
 ### Motor Controller Test
@@ -42,7 +42,7 @@ The `motor_controller_test` script is designed to test the functionality and spe
 
 The H-bridge allows for direction control of the motor by alternating the HIGH and LOW signals through pins 2 and 3. The enable pin (pin 9), which uses PWM, manages the speed of the motor. This setup offers the flexibility to reverse the motor's direction electronically and control its speed via the PWM signal.
 
-Ensure that the motor driver is appropriately powered, usually requiring an external power supply that is capable of providing sufficient current for the motor. We used a 5V power supply. Remember to connect the ground of the motor power supply to the ground of the Arduino to complete the circuit.
+Ensure that the motor driver is appropriately powered by an external power supply that is capable of providing sufficient current for your motor of choice. We used a 5V power supply and a an electric motor with a CD holder. Remember to connect the ground of the motor power supply to the ground of the Arduino to complete the circuit.
 
 ### Button Push Mode
 
@@ -59,9 +59,9 @@ The script will check the state of the buttons in the main loop and toggle the c
 
 ## Support
 
-If you encounter any issues or have questions, please open an issue in this GitHub repository or send an email to guillermo.ramirez@utsa.edu.
+If you encounter any issues or have questions, feel free to send an email to guillermo.ramirez@utsa.edu.
 
 
 ## License
 
-These scripts are provided under the MIT License. See the LICENSE file for more information.
+These scripts are provided under the MIT License. 
